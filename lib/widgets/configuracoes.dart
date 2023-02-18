@@ -15,7 +15,7 @@ class Configuracoes extends StatelessWidget
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Aulinha dos cria',
-      theme:  ThemeData(primaryColor: Colors.red),
+      theme:  ThemeData(colorSchemeSeed: Color.fromARGB(255, 244, 255, 145)),
       home:  PrimeiraPagina(),
       );
   }
